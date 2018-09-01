@@ -12,6 +12,8 @@
 		8C053AAF213B53200086D222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C053AAD213B53200086D222 /* Main.storyboard */; };
 		8C053AB1213B53220086D222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C053AB0213B53220086D222 /* Assets.xcassets */; };
 		8C053AB4213B53220086D222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C053AB2213B53220086D222 /* LaunchScreen.storyboard */; };
+		8C053ABC213B536D0086D222 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C053ABB213B536D0086D222 /* test.jpg */; };
+		8C053ABE213B53EB0086D222 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8C053ABD213B53EB0086D222 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8C053AB0213B53220086D222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C053AB3213B53220086D222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C053AB5213B53220086D222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C053ABB213B536D0086D222 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		8C053ABD213B53EB0086D222 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				8C053AA9213B53200086D222 /* AppDelegate.swift */,
 				8C053AAB213B53200086D222 /* ViewController.swift */,
 				8C053AAD213B53200086D222 /* Main.storyboard */,
+				8C053ABB213B536D0086D222 /* test.jpg */,
+				8C053ABD213B53EB0086D222 /* GoogLeNetPlaces.mlmodel */,
 				8C053AB0213B53220086D222 /* Assets.xcassets */,
 				8C053AB2213B53220086D222 /* LaunchScreen.storyboard */,
 				8C053AB5213B53220086D222 /* Info.plist */,
@@ -125,6 +131,7 @@
 				8C053AB4213B53220086D222 /* LaunchScreen.storyboard in Resources */,
 				8C053AB1213B53220086D222 /* Assets.xcassets in Resources */,
 				8C053AAF213B53200086D222 /* Main.storyboard in Resources */,
+				8C053ABC213B536D0086D222 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				8C053AAC213B53200086D222 /* ViewController.swift in Sources */,
 				8C053AAA213B53200086D222 /* AppDelegate.swift in Sources */,
+				8C053ABE213B53EB0086D222 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
